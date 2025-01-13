@@ -13,7 +13,7 @@ describe("get users test", () => {
     })
     
     it("check response's length", () => {
-        expect(response.body).to.have.lengthOf(10)
+        expect(response.body).to.have.lengthOf(10) // there are 10 users
     })
 
     it("check ids are unique", () => {
